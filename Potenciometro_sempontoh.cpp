@@ -59,6 +59,5 @@ void loop() {
     meuPotenciometro.imprimirNoSerial(Potenciometro::TENSAO);
     meuPotenciometro.imprimirNoSerial(Potenciometro::MAPEADO, 20.0, 40.0); // Mapeando de 0-5V para 20-40
     
-    Serial.println("-------------------");
     delay(1000);
 }
